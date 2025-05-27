@@ -56,7 +56,7 @@
 
 // <-------------------- Array Method ------------------>
 //filter method----->
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 // const filter = numbers.filter((num) => num > 2);
 // console.log(filter);  // Output: [3, 4, 5]
 // console.log(numbers);   //filter method does not change the original array
@@ -74,5 +74,23 @@ const numbers = [1, 2, 3, 4, 5];
 // console.log(slice); // Output: [3, 4]
 
 //concat method----->
-const concat = numbers.concat(6,7,8);
-console.log(concat);
+// const concat = numbers.concat(6,7,8);
+// console.log(concat);
+
+//splice method----->
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const splice = numbers.splice(2,1);
+// console.log(splice);
+// console.log(numbers);
+
+//push method----->
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const push = numbers.push(8,9);
+// console.log(push);
+// console.log(numbers);
+
+//map method----->
+const numbers = [1, 2, 3, 4, 5, 6];
+const map = numbers.map((num) => num * 2);
+console.log(map);
+console.log(numbers);
